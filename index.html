@@ -8,8 +8,29 @@
     <link rel="Stylesheet" href="css/styles.css">
 </head>
 
+<!-- START NAV -->
+<div class="container">
+<nav class="nav">
+  <ul>
+    <li class="thenav">
+      <a href="#contact-info">Contact Me</a>
+    </li>
+    <li class="thenav">
+      <a href="#projects">Projects</a>
+    </li>
+    <li class="thenav">
+      <a href="#about-me">About Me</a>
+    </li>
+    <li class="thenav">
+      Logo*
+    </li>
+  </ul>
+</nav>
+</div>
+<!-- END NAV -->
+
 <body>
-    <H1>
+    <H1 class="beginning">
         My Portfolio
     </H1>
     <!-- 
@@ -33,31 +54,14 @@
           - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
           - In your contact me section, make the text "Phone:" and "Email:" bolded
      -->
-<div>
 
-<!-- START NAV -->
-<nav id="navbar" class="nav">
-  <ul class="nav-list">
-    <li>
-      Logo*
-    </li>
-    <li>
-      <a href="#welcome-section">About Me</a>
-    </li>
-    <li>
-      <a href="#projects">Projects</a>
-    </li>
-    <li>
-      <a href="#contact-info">Contact Me</a>
-    </li>
-  </ul>
-</nav>
-<!-- END NAV -->
+
+
 
 <!-- START ABOUT ME -->
-<div class="about-me">
+<div class="about-me" id="about-me">
   <hr>
-  <h1>Juan Mireles -<i>"Call me Marc"</i></h1>
+  <h1><i>"Call me Marc"- </i>Juan Mireles</h1>
   <h2>Software Developer</h2>
   <hr>
     <p>My <i>favorite</i> thing about programming is that you can always learn something new in the field.</p>
@@ -68,21 +72,24 @@
 <!-- END ABOUT ME -->
   
   <!-- START PROJECTS -->
-    <h3 id="projects">My Projects</h3>
+<div id="projects">
+    <h3>My Projects</h3>
     <ul>
       <li>Project 1</li>
       <li>Project 2</li>
       <li>Project 3</li>
+</div>
 <!-- END PROJECTS -->
 
 <!-- START CONTACT INFO -->
+<div id="contact-info">
   <h3>Contact Me</h3>
   <p><b>Phone: </b>(954)-480-2290</p>
   <p><b>Email: </b><a href="mailto:fake@email.com">Fake@email.com</a></p>
-    </ul>
+</div>
 <!-- END CONTACT INFO -->
   
-</div>
+
 </body>
 
 </html>

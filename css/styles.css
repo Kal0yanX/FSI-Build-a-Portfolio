@@ -1,27 +1,33 @@
 
-  * {
-    box-sizing: border-box;
-  }
-  .header {
-    background: red;
-  }
+.beginning {
+    margin-top: 50px;
+    padding-top: 5px;
+}
+
+nav {
+    background-color: red;
+}
   
-  nav > ul {
+.container {
     float: right;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    margin-right: 2rem;
-    width: 97%;
     position: fixed;
     top: 0px;
     right: 0px;
-    gap: 30px;
-  }
+    background: red;
+    height: 40px;
+    width: 100%;
+    margin: none;
+}
+
+ .thenav {
+    float: right;
+    margin-right: 20px;
+}
   
-  ul {
-    list-style: none
-  }
+ul {
+    list-style: none;
+    margin: 10px;
+}
   
 .about-me {
   text-align: center;
