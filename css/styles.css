@@ -1,0 +1,30 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  .header {
+    background: red;
+  }
+  
+  nav > ul {
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    width: 97%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    gap: 30px;
+  }
+  
+  ul {
+    list-style: none
+  }
+  
+.about-me {
+  text-align: center;
+  padding: 40px;
+  background: gray;
+}
