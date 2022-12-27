@@ -1,19 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
 
+h1 {
+    margin: 10px;
+    padding: 5px;
+}
+
+h2 {
+    margin: 10px;
+    padding: 5px;
+}
+
+h3 {
+    margin: 10px;
+    padding: 5px;
+}
+
+p {
+    margin: 10px;
+    padding: 5px;
+}
+
+.pexels-photo {
+    height: 200px; 
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+
+.intro {
+    background:rgb(51, 53, 86);
+    padding: 10px;
+}
+  
 .beginning {
     margin-top: 50px;
     padding-top: 5px;
+    color: white;
 }
 
-nav {
-    background-color: red;
+.nav a {
+    color: white;
+}
+
+.nav {
+    font-family: "Copperplate", "Courier New", monospace;
 }
   
+.nav a:link {
+    padding: 14px 25px;
+  }
+
+a:hover {
+    color: white;
+    background-color: rgb(92, 91, 91);
+  }
+
 .container {
-    float: right;
     position: fixed;
     top: 0px;
     right: 0px;
-    background: red;
+    background: rgb(255, 0, 0);
     height: 40px;
     width: 100%;
     margin: none;
@@ -21,7 +71,7 @@ nav {
 
  .thenav {
     float: right;
-    margin-right: 20px;
+
 }
   
 ul {
@@ -32,5 +82,22 @@ ul {
 .about-me {
   text-align: center;
   padding: 40px;
-  background: gray;
+  background: rgb(92, 91, 91);
+  font-family: "Copperplate", "Courier New", monospace;
+  color: white;
 }
+
+#projects {
+    font-family: "Copperplate", "Courier New", monospace;
+    color: white;
+    background:rgb(51, 53, 86);
+    padding: 10px;
+}
+
+#contact-info {
+    font-family: "Copperplate", "Courier New", monospace;
+    background: rgb(92, 91, 91);
+    color: white;
+    padding: 10px;
+}
+

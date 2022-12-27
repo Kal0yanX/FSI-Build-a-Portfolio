@@ -30,9 +30,11 @@
 <!-- END NAV -->
 
 <body>
-    <H1 class="beginning">
-        My Portfolio
-    </H1>
+  <div class="intro">
+    <h1 class="beginning">
+        Portfolio
+    </h1>
+  </div>
     <!-- 
       Directions:
         1. Create a DIV element to contain the page content
@@ -65,8 +67,13 @@
   <h2>Software Developer</h2>
   <hr>
     <p>My <i>favorite</i> thing about programming is that you can always learn something new in the field.</p>
-      <img src="https://images.pexels.com/photos/14116777/pexels-photo-14116777.jpeg" height="200px" width="200px" alt="blurred image">
-  <h3>About Me</h3>
+      <a href="https://images.pexels.com/photos/14116777/pexels-photo-14116777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" target="_blank">
+      <img 
+        src="https://images.pexels.com/photos/14116777/pexels-photo-14116777.jpeg" 
+        class="pexels-photo" 
+        alt="blurred image"></a>
+      <div class="center">Image courtesy of <a href="https://www.pexels.com/" target="_blank">Pexels</a></div>
+      <h3>About Me</h3>
     <p>Franzen butcher poke VHS squid lomo. Chicharrones offal hot chicken, yes plz cliche occupy tote bag viral pabst salvia you probably haven't heard of them. Jean shorts austin authentic you probably haven't heard of them, pop-up VHS waistcoat. Cred small batch authentic pour-over. Brunch tattooed tumblr kinfolk banh mi slow-carb sus swag stumptown poke leggings vaporware squid photo booth.</p>
 </div>
 <!-- END ABOUT ME -->
@@ -85,7 +92,7 @@
 <div id="contact-info">
   <h3>Contact Me</h3>
   <p><b>Phone: </b>(954)-480-2290</p>
-  <p><b>Email: </b><a href="mailto:fake@email.com">Fake@email.com</a></p>
+  <p><b>Email: </b><a class="email" href="mailto:fake@email.com">Fake@email.com</a></p>
 </div>
 <!-- END CONTACT INFO -->
   
