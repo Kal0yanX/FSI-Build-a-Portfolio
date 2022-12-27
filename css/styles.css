@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    cursor: pointer;
   }
 
 h1 {
@@ -27,6 +28,7 @@ p {
     height: 200px; 
     width: 200px;
     border-radius: 50%;
+    border-color:rgb(51, 53, 86);
 }
 
 
